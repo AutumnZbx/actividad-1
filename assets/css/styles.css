@@ -1,0 +1,59 @@
+header h1{
+    background-color: coral;
+    color: black;
+    text-align: center;
+    border-radius: 2px;
+    padding: .6rem;
+    text-transform: capitalize;
+    max-width: 80%;
+    margin: 0 auto;
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+nav {
+    margin-top: 20px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #666;
+}
+nav ul li a:hover {
+    background-color: #999;
+}
+
+.btn-back {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: #666;
+    color: #fff;
+    text-decoration: none;
+}
+.btn-back:hover {
+    background-color: #999;
+}
